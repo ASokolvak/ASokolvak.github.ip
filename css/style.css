@@ -179,7 +179,7 @@ body{
   margin-right: 100px;
 }
 .conection__form{
-  width: 569px;
+  max-width: 569px;
   height: 317px;
 }
 .form{
@@ -339,7 +339,6 @@ body{
       margin-bottom: 20px;
     }
     .services__item{
-      margin: 0;
       margin-bottom: 15px;
       width: 335px;
       height: 215px;
@@ -347,9 +346,15 @@ body{
     .conection__subtitle{
       font-size: 15px;
     }
+    .social__item{
+      margin-left: 25px;
+    }
     .conection__btn{
       padding: 10px 25px;
       margin: 0;
+    }
+    .conection__wrapper{
+      margin-right: 0;
     }
   }
   @media (max-width:440px){
@@ -362,6 +367,10 @@ body{
     }
     .header__social{
       padding-top: 20px;
+      margin-right: 20px;
+    }
+    .social__item{
+      margin-left: 15px;
     }
     .services__title{
       font-size: 20px;
